@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>624759494220-76906htodvh5sgc3vvls4602svl28e2g.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.624759494220-76906htodvh5sgc3vvls4602svl28e2g</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBwrcHjwrQaumc6Kun5dsSfZ2Fla2v39cI</string>
+	<key>GCM_SENDER_ID</key>
+	<string>624759494220</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.zetour.ios</string>
+	<key>PROJECT_ID</key>
+	<string>zetour-e485b</string>
+	<key>STORAGE_BUCKET</key>
+	<string>zetour-e485b.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:624759494220:ios:d4ef8ffbcf1d6805</string>
+	<key>DATABASE_URL</key>
+	<string>https://zetour-e485b.firebaseio.com</string>
+</dict>
+</plist>

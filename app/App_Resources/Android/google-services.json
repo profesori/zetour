@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "624759494220",
+    "firebase_url": "https://zetour-e485b.firebaseio.com",
+    "project_id": "zetour-e485b",
+    "storage_bucket": "zetour-e485b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:624759494220:android:4972e5dd600acf0d",
+        "android_client_info": {
+          "package_name": "com.zetour.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "624759494220-tso6llck9j8kj400k9ufr824q08i2k5c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCStNYWiWtGIQB7Ju36SoResk7UJySf0tE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

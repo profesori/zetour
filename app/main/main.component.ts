@@ -3,7 +3,7 @@ import { Component, OnInit } from "@angular/core";
 
 @Component({
     selector: "ns-main",
-    templateUrl: "./main.component.html",
+    templateUrl: "./main/main.component.html",
 })
 export class MainComponent implements OnInit {
 
