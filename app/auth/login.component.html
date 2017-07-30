@@ -1,21 +1,23 @@
-<ActionBar title="Login"></ActionBar>
-<GridLayout backgroundColor="#CCCCCC">
-    <ScrollView>
-        <StackLayout margin="10" verticalAlignment="center">
-            <StackLayout class="form" padding="15" backgroundColor="#FFFFFF">
-                <StackLayout class="input-field">
-                    <Label text="Email" class="label font-weight-bold m-b-5"></Label>
-                    <TextField class="input" [(ngModel)]="input.email"></TextField>
-                    <StackLayout class="hr-light"></StackLayout>
+
+    <GridLayout>
+            <StackLayout margin="10" verticalAlignment="center">
+                <StackLayout class="input-field" margin="5">
+                    <TextField class="input input-border" id="email" hint="Email" text="" row="10" col="1"></TextField>
                 </StackLayout>
-                <StackLayout class="input-field">
-                    <Label text="Password" class="label font-weight-bold m-b-5"></Label>
-                    <TextField secure="true" class="input" [(ngModel)]="input.password"></TextField>
-                    <StackLayout class="hr-light"></StackLayout>
+                <StackLayout class="input-field" margin="5">
+                    <TextField class="input input-border" id="password" hint="Password" text="" row="1" col="1"></TextField>
                 </StackLayout>
-                <Button class="btn btn-primary w-full" text="Login" (tap)="login()"></Button>
-                <Label [nsRouterLink]="['/register']" text="Not a member? Register here." class="text-center footnote"></Label>
+                <StackLayout class="input-field" margin="5">
+                    <Button class="btn btn-login w-full" text="Enter" (tap)="login()"></Button>
+                </StackLayout>
             </StackLayout>
-        </StackLayout>
-    </ScrollView>
-</GridLayout>
+            <StackLayout margin="10" verticalAlignment="bottom">
+                <StackLayout class="input-field" >
+                    <Button class="btn btn-register w-full" text="Register" (tap)="login()"></Button>
+                </StackLayout>
+                <StackLayout class="input-field" >
+                    <Button class="btn btn-facebook w-full" text="Facebook" (tap)="login()"></Button>
+                </StackLayout>
+            </StackLayout>
+    </GridLayout>
+

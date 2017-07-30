@@ -1,0 +1,46 @@
+
+TextField{
+    /* Rectangle 2: */
+    background-color: rgba(255,255,255,0.26);
+    border: 1px solid rgba(255,255,255,1);
+    border-radius: 3px;
+    /* Email: */
+    font-family: Lato-Bold;
+    font-size: 15px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    height : 43;
+    padding : 3;
+    placeholder-color : rgba(255,255,255,1);
+}
+.btn-login{
+    /* Rectangle 2: */
+    background-color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    border-radius: 3px;
+    /* SIGN IN: */
+    font-family: Lato-Bold;
+    font-size: 15px;
+    color: #46E3F5;
+    letter-spacing: 0;
+}
+.btn-register{
+    /* Rectangle 2: */
+    background-color: #E48469;
+    border-radius: 3px;
+    /* Register: */
+    font-family: Lato-Bold;
+    font-size: 15px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+}
+.btn-facebook{
+    /* Rectangle 2: */
+    background-color: #3B5998;
+    border-radius: 3px;
+    /* Enter with Facebook: */
+    font-family: Lato-Bold;
+    font-size: 15px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+}

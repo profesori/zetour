@@ -6,7 +6,7 @@ import { AuthService } from "./auth.service";
 @Component({
     selector: "ns-register",
     moduleId: module.id,
-    templateUrl: "./auth/register.component.html",
+    templateUrl: "./register.component.html",
 })
 export class RegisterComponent implements OnInit {
     items: User[];
